@@ -1,0 +1,170 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 40px;
+    font-family: 'Trebuchet MS';
+    font-weight: bold;
+    color: rgb(20, 59, 20);
+}
+
+h2 {
+    font: bold 14px sans-serif;
+}
+
+header, section, footer, aside, nav, article, hgroup {
+    display: block;
+}
+
+body {
+    background: #4d5d30;
+    text-align: center;
+}
+
+.agrupar {
+    background: rgb(173, 204, 134);
+    width: 960 px;
+    border: 1px solid black;
+    margin: 15px auto;
+}
+
+.cabecera {
+    background-color: #adef56;
+    border: 1px solid #1c0202;
+    padding: 20px;
+    
+}
+
+.cabecera h1 {
+    text-align: left;
+    color: black;
+}
+
+.menu {
+    background-color: #6f5c11;
+    padding: 8px 15px;
+}
+
+.menu li {
+    list-style: none;
+    padding: 5px;
+    font: bold 14px verdana;
+    display: inline-block;
+    text-align: center;
+}
+
+article {
+    background: #FFFBCC;
+    border: 1px solid #999999;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+time {
+    color: grey;
+}
+
+article footer {
+    text-align: right;
+    margin: 20px;
+}
+
+.seccion {
+    margin: 20px;
+    width: 60%;
+    float: left;
+}
+
+.columna {
+    width: 30%;
+    float: left;
+    margin: 20px 0;
+    }
+
+.columna blockquote {
+    border: 1px solid black;
+    padding: 40px ;
+    background: #fffbb9;
+    margin-bottom: 20px;
+}
+
+img {
+    width: 30%;
+    display: block;
+    margin: auto;
+}
+
+.pie {
+    clear: both;
+    padding: 20px;
+    background:rgb(184, 132, 140);
+    color: #ffffff;
+}
+
+.botones {
+    background-color: rgb(201, 211, 67);
+    display:block;
+    border-radius: 10px;
+    text-align: left;
+}
+
+button {
+    padding: 6px;
+    font-size: 14px;
+    /*border:1px;*/
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 4px;
+    background-color: #8c9e33;
+    color: white;
+    cursor: pointer;
+    transition:0.8s;
+}
+
+.dropdwn {
+    margin-bottom: auto;
+    margin-top: auto;
+    margin-left: 600px;
+    text-align: right;
+}
+/* A partir de aqui comienza el estilo del dropdown solamente*/
+.dropbtn {
+    background-color: #6c4e0d;
+    color: rgb(243, 238, 238);
+    padding: 6px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .dropbtn:hover, .dropbtn:focus {
+    background-color: #2980B9;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #e7e484;
+    min-width: 160px;
+    overflow: auto;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown a:hover {background-color: #ddd;}
+  
+  .show {display: block;}

@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+    <html>
+        <head>
+            <title>Personal Blog</title>
+            <meta charset="UTF-8" />
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <meta name="description" content="Esta es mi primer pagina web" />
+            <meta name="author" content="Maria Jose Ramos Murillo" />
+            <meta name="keywords" content="Academic Background Blog">
+            <link rel="stylesheet" href="estilos.css">
+        </head>
+        <body>
+            <div class="agrupar">
+                <header class="cabecera">
+                    <h1>Majo's Personal Blog</h1>
+                </header>
+            <nav class="menu">
+                <ul class="botones">
+                    <li> <button onclick= "window.open('https://github.com/Majoramu/Python', '_blank')"><b>Python</b></button> </li> 
+                    <li> <button onclick= "window.open('https://github.com/Majoramu/Fortran', '_blank')"><b>FORTRAN</b></button> </li>
+                    <li> <button onclick= "window.open('https://www.w3schools.com/html/default.asp', '_blank')"><b>HTML</b></button> </li>
+                    
+                    <li class="dropdwn"><div class="dropdown">
+                        <button onclick="myFunction()" class="dropbtn">More info</button>
+                        <div id="myDropdown" class="dropdown-content">
+                          <a href="https://www.overleaf.com/project" target="_blank">Overleaf</a>
+                          <a href="https://www.linkedin.com/in/mariajramosm/" target="_blank">LinkedIn</a>
+                          <a href="https://www.overleaf.com/project/66f0ed27555fb7ad24eff44f" target="_blank">CV</a>
+                        </div>
+                        <script>
+                            /* When the user clicks on the button, 
+                            toggle between hiding and showing the dropdown content */
+                            function myFunction() {
+                              document.getElementById("myDropdown").classList.toggle("show");
+                            }
+                            
+                            // Close the dropdown if the user clicks outside of it
+                            window.onclick = function(event) {
+                              if (!event.target.matches('.dropbtn')) {
+                                var dropdowns = document.getElementsByClassName("dropdown-content");
+                                var i;
+                                for (i = 0; i < dropdowns.length; i++) {
+                                  var openDropdown = dropdowns[i];
+                                  if (openDropdown.classList.contains('show')) {
+                                    openDropdown.classList.remove('show');
+                                  }
+                                }
+                              }
+                            }
+                            </script>
+                      </div>
+                    </li>
+                    
+                    
+
+                </ul>
+               
+            </nav>
+                <section class="seccion">
+                    <article >
+                        <hgroup>
+                            <h1> Schrodinger's Equation</h1>
+                            <h2> Separation of variables method</h2>
+                        </hgroup>
+                        
+                        <time datetime="09-19-2019"> Published 08-13-2025 </time><br>
+                        
+                        <iframe width="500" height="281" src="https://www.youtube.com/embed/vBjSN9Jmr6U" frameborder="10px"
+                            Allow="acceletometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share;" allowfullscreen="allowfullscreen" title="Ecuacion de Schrodinger"></iframe>
+                        <hr>
+                        <p> Time-dependent Schrodinger's equation can be solved using the separation of variables method by transforming it into two simpler ordinary differential equations.</p>
+                        <hr>
+                        <footer>
+                            <p>Comments (0)</p>
+                        </footer>
+
+                        <address>
+                            <a href="https://www.youtube.com/@RideSky67" target="_blank">Visit my YouTube chanel!</a>
+                        </address>
+                    </article>
+
+                    <article>
+                        <hgroup>
+                            <h1> Quantum Well </h1>
+                            <h2> Square infinite well</h2>
+                        </hgroup>
+                        <time datetime="02-23-2025"> Published 08-13-2025</time>
+                        <iframe src="file:///C:/Users/maria/Documents/Licenciatura%20en%20Fisica/Libros%20y%20Solucionarios/MECANICA%20CUANTICA/Pozo_Cuadrado_Infinito.pdf" width="100%" height="600px" ></iframe>
+                        <hr>
+                        <p> A square infinite well, also known as an infinite potential well or a particle in a box, is a quantum mechanical model describing a particle confined to a region with impenetrable barriers. The potential is zero inside the well and infinite outside, meaning the particle is trapped and cannot exist beyond the defined boundaries. </p>
+                        <hr>
+                        <footer>
+                            <p>Comentarios (0)</p>
+                        </footer>
+                        <address>
+                            <a href="https://www.overleaf.com/project/5f3f3f087555eb0001d07824" target="_blank">Visit my Overleaf project in LaTex!</a>
+                        </address>
+                    </article>
+                </section>
+            <aside class="columna">
+                <blockquote cite="http://majoweb.com">
+                    <h1> Electric conductivity </h1>
+                        <h2> SDS Electric conductivity in presence of NTC</h2>
+                    <iframe src="file:///C:/Users/maria/Documents/Licenciatura%20en%20Fisica/Biofisica_Molecular/Conductividad_electrica_de_SDS_en_presencia_de_NTC.pdf" width="100%" height="600px" ></iframe>
+                        
+                </blockquote>
+
+                <blockquote>
+                    <iframe src="https://github.com/Majoramu/Python/blob/main/Actividad_8/Actividad8.ipynb" ></iframe>
+                </blockquote>
+            </aside>
+
+            <footer class="pie">
+                Derechos Reservados 2020-2025
+            </footer>
+        
+        </body>
+
+    </html>
