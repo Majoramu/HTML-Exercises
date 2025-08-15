@@ -1,3 +1,3 @@
-This is the link
+This is not an online website. 
 
-file:///C:/Users/maria/Desktop/HTML/HTML-Ejemplo/Personal-Blog.hmt.htm
+To visualize the content, download both .htm and.css files
